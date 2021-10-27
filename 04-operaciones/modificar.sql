@@ -1,0 +1,2 @@
+/* modificar un campo, este se realiza especificando la llave primaria, unicamente con esta ya que puede haber  valores de campo repetidos y estaría cambiando todos los registros con el mismo valor de campo */
+UPDATE users SET dir = "Hogwarts" WHERE id = 2;
